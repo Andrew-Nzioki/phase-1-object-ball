@@ -114,7 +114,7 @@ function gameObject() {
     },
   };
 }
-
+gameObject()
 function homeTeamName() {
   return gameObject()["home"]["teamName"];
 }

@@ -1,6 +1,7 @@
+const sinon = require( 'sinon' )
 describe("gameObject", () => {
   it("returns an object", () => {
-    expect(typeof gameObject()).toBe("object");
+    expect(typeof gameObject()).toBe("object{}");
   });
 
   it("contains a home and away team", () => {

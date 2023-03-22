@@ -1,0 +1,27 @@
+{
+  "name": "phase-1-object-ball",
+  "version": "1.0.0",
+  "description": "phase-1-object-ball Lab for Learn.co",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "keywords": [
+    "\"learn\""
+  ],
+  "author": "@Andrew-Nzioki",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "jsdom": "^9.2.1",
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^1.0.1",
+    "sinon": "^7.3.1"
+  }
+}
